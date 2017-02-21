@@ -1,0 +1,14 @@
+val __eliom__compilation_unit_id__xZq8yL : string
+val f : 'a -> unit -> string Lwt.t
+val main_service :
+  ((string * string) list, unit, Eliom_service.get, Eliom_service.att,
+   Eliom_service.non_co, Eliom_service.non_ext, Eliom_service.reg,
+   [ `WithoutSuffix ], unit, unit, Eliom_registration.Html_text.return)
+  Eliom_service.t
+val g : 'a -> int -> string Lwt.t
+val g' : 'a -> 'b -> string Lwt.t
+val post_service :
+  ((string * string) list, unit, Eliom_service.get, Eliom_service.att,
+   Eliom_service.non_co, Eliom_service.non_ext, Eliom_service.reg,
+   [ `WithoutSuffix ], unit, unit, Eliom_registration.Html_text.return)
+  Eliom_service.t

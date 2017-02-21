@@ -1,0 +1,4 @@
+_server/mysite.cmo :
+_server/mysite.cmx :
+_server/mysite.cmo : _server/mysite.type_mli
+_server/mysite.cmx : _server/mysite.type_mli
